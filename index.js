@@ -57,14 +57,3 @@ class Trip {
     return store.passengers.find(passenger => {return passenger.id === this.passengerId;})
   }
 }
-
-// let driver;
-// let passenger;
-// let firstTrip;
-// let secondTrip;
-//
-// driver = new Driver("Alfie")
-// passenger = new Passenger("Bob")
-// firstTrip = new Trip(driver, passenger)
-// secondPassenger = new Passenger("Susan")
-// secondTrip = new Trip(driver, secondPassenger)
